@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+h1{
+    text-align: center;
+    color: rgb(252, 252, 252);
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+}
+#intro{
+   color: aliceblue;
+   background-color: rgb(9, 33, 33);
+   width: 100%;
+
+}
+.oimae{
+    text-align: center;
+}
+.estrutura{
+  display: flex;
+  width: 1250px;
+  background-color: rgb(4, 58, 58);
+  padding: 10px;
+  border: 5px solid rgb(255, 255, 255);
+  margin: 0;
+  border-radius: 50px 50px;
+  position: relative;
+  left: 150px;
+  color: aliceblue;
+}
+.estrutura, .coments{
+    text-align: center;
+}
+.titulocaixa{
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+}
+h3{
+    color: black;
+    text-shadow: 
+               -1px -1px 0px rgb(255, 255, 255), 
+               -1px 1px 0px rgb(255, 255, 255),                    
+                1px -1px 0px rgb(255, 255, 255),                  
+                1px 0px 0px rgb(255, 255, 255);
+}
+.img1{
+    width: 40%;
+}
+.img2{
+    width: 60%;
+}
+nav{
+    background-color: black;
+    text-align: center;
+    height: 50px;
+
+}
+nav a{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: rgb(42, 211, 211);
+}
+li{
+   display: inline; 
+   padding: 1px 5px;
+   margin-right: 35px;
+}
+.cell{
+    width: 4%;
+    border-radius: 50%;
+    position: relative;
+    top: 19px;
+    right: 9px;
+}
+.andre{
+    width: 4%;
+    border-radius: 50%;
+    position: relative;
+    top: 18px;
+    right: 9px;
+}
+.jade{
+    width: 4%;
+    border-radius: 40%;
+    position: relative;
+    top: 10px;
+    right: 9px;
+}
+body{
+    background-color: rgb(46, 166, 160);
+}
+@media (max-width: 600px) {
+    .estrutura {
+        text-align: center;
+        width: 70%;
+        left: 57px;
+        transition: 1s ease-in-out;
+    }
+  }
+  @media (max-width: 600px) {
+    nav a {
+        text-align: center;
+        width: 100%;
+        transition: 1s ease-in-out;
+    }
+  }
+
+  @media (max-width: 600px) {
+    body {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        transition: 1s ease-in-out;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .estrutura {
+        text-align: center;
+        width: 70%;
+        left: 57px;
+        transition: 1s ease-in-out;
+    }
+
+    @media (max-width: 1000px) {
+        .estrutura {
+            text-align: center;
+            width: 70%;
+            left: 75px;
+            transition: 1s ease-in-out;
+        }
+    }    
+
+  }
+  @media (max-width: 1210px) {
+    .estrutura {
+        text-align: center;
+        width: 70%;
+        transition: 1s ease-in-out;
+    }
+  }
