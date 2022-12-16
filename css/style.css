@@ -101,6 +101,9 @@ li{
 body{
     background-color: rgb(46, 166, 160);
 }
+
+/* Responsividade início em construção*/
+
 @media (max-width: 400px) {
     .estrutura {
         
